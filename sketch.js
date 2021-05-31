@@ -15,18 +15,18 @@ var personGroup;
 function preload(){
   
   // Kokichi's Animated Sprites
-  kokiRun = loadAnimation("Kokichi Run/Kokichi.png", "Kokichi Run/Kokichi2.png");
-  kokiTired = loadAnimation("Kokichi Tired/KokiTired.png", "Kokichi Tired/KokiTired2.png");
+  kokiRun = loadAnimation("./Kokichi Run/Kokichi.png", "./Kokichi Run/Kokichi2.png");
+  kokiTired = loadAnimation("./Kokichi Tired/KokiTired.png", "./Kokichi Tired/KokiTired2.png");
   
   // The rest of the animated sprite cast
-  maki = loadAnimation("Maki Run/Maki.png", "Maki Run/Maki2.png");
-  kirumi = loadAnimation("Kirumi Run/Kirumi.png", "Kirumi Run/Kirumi2.png");
-  shuichi = loadAnimation("Shuichi Run/Shuichi.png", "Shuichi Run/Shuichi2.png");
-  chiaki = loadAnimation("Chiaki Run/Chiaki.png", "Chiaki Run/Chiaki2.png");
-  nagito = loadAnimation("Nagito Run/Nagito.png", "Nagito Run/Nagito2.png");
-  hajime = loadAnimation("Hajime Run/Hajime.png", "Hajime Run/Hajime2.png");
-  tenko = loadAnimation("Tenko Run/Tenko.png", "Tenko Run/Tenko2.png");
-  miu = loadAnimation("Miu Run/Miu.png", "Miu Run/Miu2.png")
+  maki = loadAnimation("./Maki Run/Maki.png", "./Maki Run/Maki2.png");
+  kirumi = loadAnimation("./Kirumi Run/Kirumi.png", "./Kirumi Run/Kirumi2.png");
+  shuichi = loadAnimation("./Shuichi Run/Shuichi.png", "./Shuichi Run/Shuichi2.png");
+  chiaki = loadAnimation("./Chiaki Run/Chiaki.png", "./Chiaki Run/Chiaki2.png");
+  nagito = loadAnimation("./Nagito Run/Nagito.png", "./Nagito Run/Nagito2.png");
+  hajime = loadAnimation("./Hajime Run/Hajime.png", "./Hajime Run/Hajime2.png");
+  tenko = loadAnimation("./Tenko Run/Tenko.png", "./Tenko Run/Tenko2.png");
+  miu = loadAnimation("./Miu Run/Miu.png", "./Miu Run/Miu2.png")
 
   
   // Images
