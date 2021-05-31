@@ -54,6 +54,7 @@ function setup(){
   kokichi.addAnimation("run", kokiRun);
   kokichi.addAnimation("tired", kokiTired);
   kokichi.scale = 0.6;
+  kokichi.depth = road.depth + 1;
   
   restart = createSprite(width / 2, height * 0.75);
   restart.addImage(reImg);
@@ -146,6 +147,7 @@ function overtake(){
   
     if (frameCount % 30 == 0){
     var person = createSprite(width + 50, height / 2);
+    person.depth = road.depth + 1;
 
     var r = Math.round(random(0, 7));
 
