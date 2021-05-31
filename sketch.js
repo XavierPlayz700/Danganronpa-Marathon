@@ -31,7 +31,7 @@ function preload(){
   
   // Images
   roadImg = loadImage("t.png");
-  roadImg.resize(1600, 900);
+  roadImg.resize(windowWidth, windowHeight);
   
   reImg = loadImage("Restart.png");
   
@@ -42,7 +42,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(1600, 900);
+  createCanvas(windowWidth, windowHeight);
   
   edges = createEdgeSprites();
   
