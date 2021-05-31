@@ -26,7 +26,7 @@ function preload(){
   nagito = loadAnimation("Nagito.png", "Nagito2.png");
   hajime = loadAnimation("Hajime.png", "Hajime2.png");
   tenko = loadAnimation("Tenko.png", "Tenko2.png");
-  miu = loadAnimation("Miu.png", "Miu2.png")
+  miu = loadAnimation("Miu.png", "Miu2.png");
 
   
   // Images
